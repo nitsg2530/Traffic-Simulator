@@ -19,7 +19,7 @@ The figures below show a simple example of such a network. It shows the road net
 
 In a slightly more abstract way we can represent this network as a directed graph. Each node in the graph represents a road
 segment. Red nodes in the graph represent nodes with a car and green nodes represent nodes without a car.
-![alt]({{ site.url }}{{ site.baseurl }}/images/TrafficSimulator/EG2.PNG)
+![alt](https://nitsg2530.github.io/images/TrafficSimulator/EG2.PNG)
 
 ## Details
 ### Road network
@@ -82,7 +82,7 @@ as arguments and which carries out the simulation as described above.
 • There should be a method called plot network, which creates a plot of the network in its most recent state, as
 shown below. Occupied segments should be shown in red and unoccupied segments should be shown in green.
 
-![alt](https://nitsg2530.github.io/images/TrafficSimulator/Network.PNG)
+![alt](https://nitsg2530.github.io/images/TrafficSimulator/network.PNG)
 
 • There should be a method called plot occupancy, which takes one ore more segment indices as argument(s) and
 which creates a line plot of the evolution of occupancy for each of these segments over time, as shown below. Each
